@@ -1,4 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+
+nav {
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: white;
+	min-height: 8vh;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+  }
+  /*nav links positioning*/
+  .nav-links {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	width: 40%;
+  }
+  /*nav links styles*/
+  .nav-links a {
+	color: white;
+	margin-left: 5px;
+	text-decoration: none;
+	font-size: 40px;
+  }
+
+  /*links hover*/
+  a:hover {
+	color: var(--cef-teal);
+  }
+  @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
 
 * {
